@@ -1,13 +1,11 @@
 # SmartTapAVR
-Smart Tap (Faucet) Simulation/Implementation using ATMega16 Microcontroller and CodevisionAVR (Written in C).
 
-Microprocessors Course Project at IUST
+Smart Tap (Faucet) simulation/implementation using ATMega16 microcontroller & CodevisionAVR (written in C).
 
-Contributors and Creators:
+Microprocessor course project at IUST, Dr. Hosseini Monazzah, semester 991
 
-Mina Tahaei, BSc, Computer Engineering
+Project contributors: 
 
+* Mina Tahaei, BSc, Computer Engineering
 
-Danial Bazmandeh, BSc, Computer Engineering
-
-Professor: Dr. AmirMahdi Monazzah
+* Danial Bazmandeh, BSc, Computer Engineering

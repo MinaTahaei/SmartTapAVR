@@ -9,3 +9,7 @@ Project contributors:
 * Mina Tahaei, BSc, Computer Engineering
 
 * Danial Bazmandeh, BSc, Computer Engineering
+
+Read proposal:
+
+ * [https://github.com/MinaTahaei/SmartTapAVR/blob/main/Microprocessor%20Proposal%20-%20Group%201.pdf](Download proposal)

@@ -12,4 +12,4 @@ Project contributors:
 
 Read proposal:
 
- * [https://github.com/MinaTahaei/SmartTapAVR/blob/main/Microprocessor%20Proposal%20-%20Group%201.pdf](Download proposal)
+ * [https://github.com/MinaTahaei/SmartTapAVR/blob/main/Microprocessor%20Proposal%20-%20Group%201.pdf] (Download proposal)

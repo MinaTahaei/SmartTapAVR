@@ -1,0 +1,12 @@
+VERSION:3 SOURCE_TIMESTAMP:519E62FB
+NODE:I LEVEL:0 LINE:3 "C:\cvavr\inc\mega16.h"
+NODE:I LEVEL:0 LINE:4 "C:\cvavr\inc\alcd.h"
+NODE:I LEVEL:0 LINE:5 "C:\cvavr\inc\stdio.h"
+NODE:V LEVEL:0 LINE:7 "buffer -> RAM:????"
+NODE:V LEVEL:0 LINE:8 "second -> R4,R5"
+NODE:V LEVEL:0 LINE:8 "minute -> R6,R7"
+NODE:V LEVEL:0 LINE:8 "hour -> R8,R9"
+NODE:V LEVEL:0 LINE:8 "flag1 -> R10,R11"
+NODE:V LEVEL:0 LINE:8 "flag2 -> R12,R13"
+NODE:F LEVEL:0 LINE:10 "timer1_ovf_isr(void)"
+NODE:F LEVEL:0 LINE:23 "main(void)"

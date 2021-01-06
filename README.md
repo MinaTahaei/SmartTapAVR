@@ -6,9 +6,9 @@ Microprocessor course project at IUST, Dr. Hosseini Monazzah, Semester 991
 
 Project contributors: 
 
-* Mina Tahaei, BSc, Computer Engineering
+* Mina Tahaei, BEng, Computer Engineering
 
-* Danial Bazmandeh, BSc, Computer Engineering
+* Danial Bazmandeh, BEng, Computer Engineering
 
 Read proposal:
 

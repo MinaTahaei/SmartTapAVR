@@ -1,0 +1,23 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+hour                                                                              R4,R5        2
+minute                                                                            R6,R7        2
+second                                                                            R8,R9        2
+is_on                                                                             R11          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+init_LCD                                                                          0x00068     13
+LCD_write                                                                         0x00080     17
+timer1_ovf_isr                                                                    0x00091     45
+main                                                                              0x000BE    113

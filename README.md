@@ -15,3 +15,12 @@ Project contributors:
 Read proposal:
 
 * [Download proposal](https://github.com/MinaTahaei/SmartTapAVR/blob/main/Microprocessor%20Proposal%20-%20Group%201.pdf)
+
+## Tests
+
+Run the compile test script to verify that the project sources build with `avr-gcc` (if available):
+
+```sh
+sh tests/compile.sh
+```
+

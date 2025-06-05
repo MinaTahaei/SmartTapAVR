@@ -2,7 +2,7 @@
 This program was created by the
 CodeWizardAVR V3.12 Advanced
 Automatic Program Generator
-© Copyright 1998-2014 Pavel Haiduc, HP InfoTech s.r.l.
+Â© Copyright 1998-2014 Pavel Haiduc, HP InfoTech s.r.l.
 http://www.hpinfotech.com
 
 Project : Smart Water Tap
@@ -26,10 +26,10 @@ Data Stack size         : 256
 #include <stdio.h>
 
 // Declare your global variables here
-int hour = 0;
-int minute = 0;
-int second = 0;
-unsigned char is_on = 0;
+volatile int hour = 0;
+volatile int minute = 0;
+volatile int second = 0;
+volatile unsigned char is_on = 0;
 
 /*
     LCD DRIVER By Seyyed Ali Ayati

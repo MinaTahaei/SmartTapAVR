@@ -5,7 +5,8 @@
 #include <stdio.h>
 
 char buffer[20];
-int second = 0 , minute = 0 , hour = 0 , flag1 = 0 , flag2 = 0;
+volatile int second = 0 , minute = 0 , hour = 0 ;
+int flag1 = 0 , flag2 = 0;
 
 interrupt [TIM1_OVF] void timer1_ovf_isr(void)
 {
@@ -23,7 +24,7 @@ if (hour == 24) hour = 0;
 void main(void)
 {
 
-//tanzim portA b onvane voooroodi - bekhatere ADC
+//tanzim portA b onvane voroodi - bekhatere ADC
 DDRA=0x00;
 PORTA=0x00;
 //tanzim portB b onvane khoorooji 

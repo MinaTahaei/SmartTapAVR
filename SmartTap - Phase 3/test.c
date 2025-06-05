@@ -43,9 +43,9 @@ void init_LCD(void)   // Initialize the LCD
 {
     LCD_cmd(0x38);                     
     delay_ms(1);
-    LCD_cmd(0x01); // 16, Mode: 8 Bits                         
+    LCD_cmd(0x01); // Clear screen
     delay_ms(1);
-    LCD_cmd(0x0E); // Clear Screen                
+    LCD_cmd(0x0E); // Enable display and cursor
     delay_ms(1);
     LCD_cmd(0x80); // Goto 0,0            
     delay_ms(1);
@@ -158,7 +158,7 @@ TIMSK=(0<<OCIE2) | (0<<TOIE2) | (0<<TICIE1) | (0<<OCIE1A) | (0<<OCIE1B) | (1<<TO
 #asm("sei")
 
 init_LCD(); 
-LCD_cmd(0x01); // Clear Screen
+LCD_cmd(0x01); // Clear screen
 LCD_cmd(0x0C); // Hide Cursor
    
 // Write On Time     

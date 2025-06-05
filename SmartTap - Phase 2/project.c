@@ -23,7 +23,7 @@ if (hour == 24) hour = 0;
 void main(void)
 {
 
-//tanzim portA b onvane voooroodi - bekhatere ADC
+//tanzim portA b onvane voroodi - bekhatere ADC
 DDRA=0x00;
 PORTA=0x00;
 //tanzim portB b onvane khoorooji 

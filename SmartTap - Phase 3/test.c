@@ -2,10 +2,10 @@
 This program was created by the
 CodeWizardAVR V3.12 Advanced
 Automatic Program Generator
-© Copyright 1998-2014 Pavel Haiduc, HP InfoTech s.r.l.
-http://www.hpinfotech.com
-
-Project : Smart Water Tap
+volatile int hour = 0;
+volatile int minute = 0;
+volatile int second = 0;
+volatile unsigned char is_on = 0;
 Version : 3
 Date    : 2021-01-30
 Author  : Seyyed Ali Ayati, Mina Tahaei, Danial Bazmandeh 

@@ -5,7 +5,8 @@
 #include <stdio.h>
 
 char buffer[20];
-int second = 0 , minute = 0 , hour = 0 , flag1 = 0 , flag2 = 0;
+volatile int second = 0 , minute = 0 , hour = 0 ;
+int flag1 = 0 , flag2 = 0;
 
 interrupt [TIM1_OVF] void timer1_ovf_isr(void)
 {
